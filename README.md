@@ -9,6 +9,7 @@ The top 10% of customers by spend (588 people) generate **63.7% of total revenue
 RFM segmentation further reveals an **"At Risk"** segment of 829 historically frequent customers who haven't purchased in 365+ days, representing £1.6M in recoverable value — a stronger win-back target than the broader churned base.
 
 ## Architecture
+CSV Dataset → HDFS Storage → Hive External Table → HiveQL Aggregation → Python (PyHive + pandas) → Visualizations
 
 ## Tech Stack
 
