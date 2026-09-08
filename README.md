@@ -7,10 +7,16 @@ A big data analytics pipeline that processes 1M+ retail transactions using **Had
 The top 10% of customers by spend (588 people) generate **63.7% of total revenue** — a clear Pareto pattern with direct implications for retention strategy.
 
 RFM segmentation further reveals an **"At Risk"** segment of 829 historically frequent customers who haven't purchased in 365+ days, representing £1.6M in recoverable value — a stronger win-back target than the broader churned base.
+![RFM Customer Segments](rfm_segments.png)
 
 ## Architecture
 CSV Dataset → HDFS Storage → Hive External Table → HiveQL Aggregation → Python (PyHive + pandas) → Visualizations
 
+## Seasonality Insight
+
+Revenue peaks sharply every November both years, consistent with pre-Christmas retail buildup — a clear signal for inventory and staffing planning.
+
+![Monthly Revenue Trend](monthly_trend.png)
 ## Tech Stack
 
 - **Storage:** Hadoop HDFS (Docker, `bde2020` images)
