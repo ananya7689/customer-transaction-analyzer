@@ -63,4 +63,4 @@ CSV Dataset → HDFS Storage → Hive External Table → HiveQL Aggregation → 
 
 ## Author
 
-Ananya Kumari — Big Data Analytics project, September 2026
+Ananya Kumari — Big Data Analytics project
